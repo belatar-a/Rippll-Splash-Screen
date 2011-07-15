@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#513513"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<ImageView android:id="@+id/homeimage"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent"
+    	android:src="@drawable/splash" />
+    <ProgressBar android:id="@+id/progress" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:layout_alignParentBottom="true" 
+    	android:layout_centerHorizontal="true" 
+    	android:layout_marginBottom="140dp" />
+</RelativeLayout>
